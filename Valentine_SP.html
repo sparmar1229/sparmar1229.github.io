@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+<title> Valentine! </title>
+<meta charset= "utf-8">
+<!--Serena Parmar
+Valentine on Github
+started 02/09/2023
+due 0/14/2023-->
+
+<style>
+body{background-color:pink;
+border-color:red;
+border-style:outset;
+}
+
+h1{text-align:center;
+font-size:50pt;
+color:red
+}
+
+.center{display:block;
+margin-left:auto;
+margin-right:auto;
+width:50%
+}
+</style>
+
+<script>
+function dog(x, y){
+	document.getElementById(x).src=y;
+}
+</script>
+</head>
+
+
+<body>
+
+<h1 onclick = "dog('e', 'valentine.jpg')"> I have a question... </h1>
+
+<img id = "e" src = "closedEnvelope.jpg" alt = "Closed Envelope" class="center" onclick = "dog('e', 'openedEnvelope.jpg')">
+
+<script>
+alert("You have a new message!");
+</script>
+
+
+
+
+</body>
+</html>
